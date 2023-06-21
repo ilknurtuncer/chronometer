@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
     box-shadow: 0 1.97em 3.75em rgba(1, 87, 185, 0.2);
 }
 
-.timer-display {
+/* .timer-display {
     position: relative;
     width: 110%;
     background-color: #3c98ff;
@@ -41,9 +41,9 @@ body {
     margin: 3.8em auto 0 auto;
     display: flex;
     justify-content: space-around;
-}
+} */
 
-.buttons button {
+/* .buttons button {
     font-size: 1.12em;
     background-color: #dbe9ff;
     color: #3c98ff;
