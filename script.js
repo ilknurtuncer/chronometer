@@ -38,9 +38,9 @@ function displayTimer() {
     timerRef.innerHTML = `${h} : ${m} : ${s} : ${ms}`;
 }
 
-// document.getElementById("pause-timer").addEventListener("click", () => {
-//     clearInterval(flag);
-// });
+document.getElementById("pause-timer").addEventListener("click", () => {
+    clearInterval(flag);
+});
 
 // document.getElementById("reset-timer").addEventListener("click", () => {
 //     clearInterval(flag);
