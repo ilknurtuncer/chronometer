@@ -51,9 +51,9 @@ document.getElementById("reset-timer").addEventListener("click", () => {
     timerRef.innerHTML = "00 : 00 : 00 : 000";
 });
 
-// //? istek halinde tur süresi olarak
-// document.getElementById("tur-timer").addEventListener("click", () => {
-//     // clearInterval(flag);
-//     counter++;
-//     console.log(`${counter}. tur süresi:  ${hours} saat: ${minutes} dakika : ${seconds} saniye : ${milliseconds} ms `);
-// });
+//? istek halinde tur süresi olarak
+document.getElementById("tur-timer").addEventListener("click", () => {
+    // clearInterval(flag);
+    counter++;
+    console.log(`${counter}. tur süresi:  ${hours} saat: ${minutes} dakika : ${seconds} saniye : ${milliseconds} ms `);
+});
