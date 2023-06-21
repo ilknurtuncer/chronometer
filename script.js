@@ -1,26 +1,26 @@
-// // * let [milliseconds, seconds, minutes, hours] = [0,0,0,0] //* alternatif tanımlama
+// * let [milliseconds, seconds, minutes, hours] = [0,0,0,0] //* alternatif tanımlama
 
-// let milliseconds = 0,
-//     seconds = 0,
-//     minutes = 0,
-//     hours = 0,
-//     flag = null,
-//     counter = 0;
+let milliseconds = 0,
+    seconds = 0,
+    minutes = 0,
+    hours = 0,
+    flag = null,
+    counter = 0;
 
-// console.log(milliseconds);
-// console.log(seconds);
-// console.log(minutes);
-// console.log(hours);
+console.log(milliseconds);
+console.log(seconds);
+console.log(minutes);
+console.log(hours);
 
-// let timerRef = document.querySelector(".timer-display");
-// let id = document.getElementById('id');
+let timerRef = document.querySelector(".timer-display");
+let id = document.getElementById('id');
 
-// document.getElementById("start-timer").addEventListener("click", () => {
-//     if (flag !== null) {
-//         clearInterval(flag);
-//     }
-//     flag = setInterval(displayTimer, 10);
-// });
+document.getElementById("start-timer").addEventListener("click", () => {
+    if (flag !== null) {
+        clearInterval(flag);
+    }
+    flag = setInterval(displayTimer, 10);
+});
 
 
 // function displayTimer() {
