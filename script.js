@@ -42,14 +42,14 @@ document.getElementById("pause-timer").addEventListener("click", () => {
     clearInterval(flag);
 });
 
-// document.getElementById("reset-timer").addEventListener("click", () => {
-//     clearInterval(flag);
-//     milliseconds = 0;
-//     seconds = 0;
-//     minutes = 0;
-//     hours = 0;
-//     timerRef.innerHTML = "00 : 00 : 00 : 000";
-// });
+document.getElementById("reset-timer").addEventListener("click", () => {
+    clearInterval(flag);
+    milliseconds = 0;
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    timerRef.innerHTML = "00 : 00 : 00 : 000";
+});
 
 // //? istek halinde tur süresi olarak
 // document.getElementById("tur-timer").addEventListener("click", () => {
