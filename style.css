@@ -20,7 +20,7 @@ body {
     box-shadow: 0 1.97em 3.75em rgba(1, 87, 185, 0.2);
 }
 
-/* .timer-display {
+.timer-display {
     position: relative;
     width: 110%;
     background-color: #3c98ff;
@@ -34,7 +34,7 @@ body {
     justify-content: space-around;
     border-radius: 0.3em;
     box-shadow: 0 0.5em 1em rgba(1, 87, 185, 0.2);
-} */
+}
 
 .buttons {
     width: 80%;
